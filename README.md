@@ -91,5 +91,5 @@ None 4xx or 5xx status codes happened.
 
 However, all requests took more than 2 seconds to run, failing on assertion for P(95)<2000.
 
-**InfluxDB** POC https://github.com/claudio-au/influxdb, running on same scenario, was able to run only 10x more requests during the whole test.
+**InfluxDB** POC https://github.com/claudio-au/influxdb, running on same scenario, was able to run 10x more requests during the whole test.
 
