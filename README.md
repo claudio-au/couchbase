@@ -29,7 +29,7 @@ if you want to ingest data, please uncomment the annotation **@EnableScheduling*
 ## Data ingestion
 
 To ingest data, it was created a job task that runs every 1 milliseconds
-and save a measurement called weather into influxdb.
+and save a measurement called weather into couchbase.
 The structure of this measurement is defined on model Weather.java (https://github.com/claudio-au/couchbase/blob/main/src/main/java/com/autonomic/poc/couchbase/domain/Weather.java)
 
 ## Data Reading
