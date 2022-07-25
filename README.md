@@ -16,7 +16,7 @@ This tool has to be able to process a high number of queries quickly.
 
 ## Scope of POC
 
-This POC has to write and read data in influxdb and provide a way to user query the information.  
+This POC has to write and read data into couchbase and provide a way to user query the information.  
 (https://github.com/claudio-au/couchbase/blob/main/src/main/java/com/autonomic/poc/couchbase/job/WeatherJobs.java)
 
 This application is running using Java 11 and Spring Boot.
